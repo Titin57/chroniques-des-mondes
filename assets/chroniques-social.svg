@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0c0e10"/>
+<rect x="45" y="45" width="1110" height="540" fill="none" stroke="#5a4934" stroke-width="2"/>
+<text x="600" y="245" text-anchor="middle" fill="#b89555" font-family="serif" font-size="34" letter-spacing="8">CHRONIQUES</text>
+<text x="600" y="330" text-anchor="middle" fill="#eee8de" font-family="serif" font-weight="bold" font-size="76">DES MONDES</text>
+<line x1="360" y1="375" x2="840" y2="375" stroke="#b89555"/>
+<text x="600" y="430" text-anchor="middle" fill="#aaa39a" font-family="sans-serif" font-size="25">Le lore des univers que nous parcourons en live</text>
+<text x="600" y="500" text-anchor="middle" fill="#716b63" font-family="sans-serif" font-size="18">WARCRAFT • WARHAMMER 40,000 • ARCHIVES • LORE • STREAMS</text>
+</svg>

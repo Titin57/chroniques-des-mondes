@@ -1,0 +1,9 @@
+CHRONIQUES DES MONDES — AUDIT V12
+Pages HTML : 67
+Liens internes cassés : 0
+Images externes/hotlinks : 0
+Dépendances externes : Google Fonts uniquement
+Twitch : URL exacte encore à renseigner
+Domaine : à choisir
+Sitemap/canonical : à générer après choix du domaine
+Résultat : OK POUR TEST/PUBLICATION

@@ -1,0 +1,76 @@
+CHRONIQUES DES MONDES — V3
+
+1. Ouvre index.html pour tester le site.
+2. Le site fonctionne sans installation.
+3. Pour ton vrai lien Twitch :
+   - ouvre index.html avec le Bloc-notes
+   - cherche https://www.twitch.tv/
+   - remplace-le par l'adresse de ta chaîne.
+4. Les images de cette maquette sont chargées depuis Internet.
+   Avant publication, remplace-les idéalement par tes captures de stream ou des médias que tu as le droit d'utiliser.
+5. Les pages sont dans warcraft/personnages, warcraft/lieux et warcraft/missions.
+
+V4 :
+- La page Warcraft est désormais organisée autour de la chronologie réelle des lives.
+- Warcraft I : terminé.
+- Warcraft II: Tides of Darkness : terminé.
+- Beyond the Dark Portal : en cours.
+- Warcraft III et The Frozen Throne : à venir.
+- Chaque jeu possède maintenant sa propre page d'archives.
+
+V5 :
+- La chronologie V4 est conservée.
+- Les sections Personnages, Lieux et Missions sont de nouveau visibles directement sur la page Warcraft.
+- Westfall et Grand Hamlet sont de nouveau accessibles comme lieux.
+- Les missions Westfall et Grand Hamlet sont de nouveau accessibles.
+- Les pages de jeux proposent des raccourcis vers Missions et Lieux.
+
+V7 — WARCRAFT I :
+- 24 missions archivées : 12 humaines + 12 orques.
+- Ajout de fiches personnages importantes de Warcraft I.
+- Ajout de fiches lieux pertinentes de Warcraft I.
+- La chronologie et la structure V6 restent inchangées.
+- Les fiches sont prévues pour être enrichies plus tard avec captures de live et lore ultérieur.
+
+V8 — FICHES DÉTAILLÉES
+- Les fiches Warcraft I ne sont plus de simples résumés.
+- Personnages : identité, rôle dans Warcraft I, liens, héritage, lore ultérieur, anecdotes.
+- Lieux : fonction, rôle pendant la Première Guerre, évolution ultérieure et anecdotes.
+- Missions : contexte, objectif, importance narrative, lieu, continuité et anecdotes.
+- La structure et la chronologie V6/V7 sont conservées.
+
+V9 — SPOILERS
+- Le texte des encadrés Lore ultérieur / Spoilers est masqué par défaut.
+- PC : survol de l'encadré pour révéler le texte.
+- Téléphone/tablette : clic/tap pour révéler ou masquer.
+
+V10 — WARHAMMER 40,000
+- Nouvelle page d'accueil Warhammer 40K.
+- Parcours « Comprendre 40K » : Imperium, Warp/Chaos, Hérésie d'Horus, Era Indomitus.
+- Chronologie simplifiée.
+- Mise en avant des 4 factions annoncées au lancement de Total War: Warhammer 40,000.
+- Premières fiches de 10 grandes factions.
+- Warcraft V9 conservé sans modification de structure.
+
+V11 — CORRECTION ACCUEIL
+- Carte Warhammer de l'accueil reliée à warhammer/index.html.
+- Warhammer 40K ajouté explicitement à la navigation générale.
+- Libellé d'accueil harmonisé en « Warhammer 40,000 ».
+
+V12 — PRÊTE POUR MISE EN LIGNE
+- Carte Warhammer 40,000 de l'accueil corrigée et cliquable.
+- Section « En ce moment » mise à jour sur Beyond the Dark Portal.
+- Vérification automatique de tous les liens internes.
+- Meta description sur toutes les pages.
+- Métadonnées Open Graph / partage social.
+- Favicon Chroniques des Mondes.
+- Visuel social de secours dans /assets.
+- Page 404 personnalisée.
+- robots.txt.
+- Navigation clavier / focus améliorée.
+- Faux lien Twitch générique retiré.
+
+AVANT PUBLICATION :
+1. Remplacer « LIEN TWITCH À AJOUTER » par l'URL exacte de la chaîne.
+2. Une fois le nom de domaine choisi, ajouter les URL canoniques et un sitemap.xml avec ce domaine.
+3. Idéalement convertir/remplacer le visuel social SVG par une image PNG 1200x630 pour une compatibilité maximale avec les aperçus sociaux.
