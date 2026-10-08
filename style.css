@@ -113,3 +113,68 @@ footer{border-top:1px solid var(--line);padding:32px 7%;display:flex;justify-con
 .disabled-link{opacity:.62;cursor:not-allowed;user-select:none}
 a.card{color:inherit;text-decoration:none}
 a.card:focus-visible,.btn:focus-visible,.topbar a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+
+/* V13 — Illustrations factions Warhammer 40,000 */
+.faction-art{
+  position:relative;
+  margin:0 0 30px;
+  border:1px solid #5a4934;
+  background:#0a0b0c;
+  box-shadow:0 14px 38px rgba(0,0,0,.35);
+  overflow:hidden;
+}
+.faction-art img{
+  display:block;
+  width:100%;
+  height:390px;
+  object-fit:cover;
+  object-position:center;
+  filter:saturate(.82) contrast(1.04) brightness(.78);
+  transition:transform .55s ease, filter .55s ease;
+}
+.faction-art:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,rgba(8,9,10,.05) 30%,rgba(8,9,10,.82) 100%);
+  pointer-events:none;
+}
+.faction-art:hover img{
+  transform:scale(1.025);
+  filter:saturate(1) contrast(1.05) brightness(.9);
+}
+.faction-art-caption{
+  position:absolute;
+  z-index:2;
+  left:20px;
+  right:20px;
+  bottom:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:18px;
+  color:#c9bca7;
+  font-size:9px;
+  letter-spacing:1.2px;
+  text-transform:uppercase;
+}
+.faction-art-caption a{color:#b59b70;text-decoration:none}
+.faction-art-caption a:hover{color:var(--gold)}
+.faction-card-art{
+  display:block;
+  width:calc(100% + 36px);
+  height:190px;
+  object-fit:cover;
+  margin:-18px -18px 18px;
+  filter:saturate(.82) brightness(.72);
+  border-bottom:1px solid #5a4934;
+  transition:filter .3s ease,transform .3s ease;
+}
+.faction-feature:hover .faction-card-art,
+a.card:hover .faction-card-art{filter:saturate(1) brightness(.88);transform:scale(1.01)}
+@media(max-width:700px){
+  .faction-art img{height:260px}
+  .faction-art-caption{font-size:8px;left:13px;right:13px}
+  .faction-card-art{height:165px}
+}

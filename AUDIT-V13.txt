@@ -1,0 +1,5 @@
+V13 — Illustrations Warhammer 40,000
+
+Ajout d’illustrations officielles/Warhammer Community aux 10 fiches de factions et aux cartes de la page Warhammer 40K.
+Le contenu, la navigation et l’architecture existants ont été conservés.
+Les images sont appelées depuis leurs hébergeurs officiels afin de ne pas alourdir le dépôt GitHub.
