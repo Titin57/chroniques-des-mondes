@@ -178,11 +178,3 @@ a.card:hover .faction-card-art{filter:saturate(1) brightness(.88);transform:scal
   .faction-art-caption{font-size:8px;left:13px;right:13px}
   .faction-card-art{height:165px}
 }
-
-/* Warcraft Codex — illustrations originales */
-.warcraft-art{position:relative;margin:0 0 30px;border:1px solid #5a4934;background:#0a0b0c;box-shadow:0 14px 38px rgba(0,0,0,.35);overflow:hidden}
-.warcraft-art img{display:block;width:100%;height:390px;object-fit:cover;filter:saturate(.78) contrast(1.04) brightness(.78);transition:transform .55s ease,filter .55s ease}
-.warcraft-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,9,10,.02) 28%,rgba(8,9,10,.86) 100%);pointer-events:none}
-.warcraft-art:hover img{transform:scale(1.025);filter:saturate(.95) contrast(1.05) brightness(.9)}
-.warcraft-art figcaption{position:absolute;z-index:2;left:20px;right:20px;bottom:15px;display:flex;justify-content:space-between;align-items:end;gap:18px;color:#c9bca7;font-size:9px;letter-spacing:1.2px;text-transform:uppercase}
-@media(max-width:650px){.warcraft-art img{height:280px}.warcraft-art figcaption{font-size:8px;letter-spacing:.8px}}
